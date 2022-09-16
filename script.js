@@ -1,11 +1,17 @@
 $(document).ready(function(){
-// current day
+
+    var init = false;
+    
+}
+    // current day
+
 
 const currentDate = $('#currentDay');
 currentDate.text
 
 
 
+}
    
 // local storage lord
 {
@@ -16,7 +22,7 @@ $('.save').click(function(){
 
 
 
-localStorage.setItem(key: hour)
+localStorage.setItem(key:hour, value:day)
 
 
 }
