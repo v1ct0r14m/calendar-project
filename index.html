@@ -4,36 +4,119 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   
+   <!-- bootstrap link -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+
+    <!-- ok here is fontawesome -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <!-- idk why, but google fonts api -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <!-- css -->
     <link rel="stylesheet" href="style.css" />
+
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+
+    <!-- wumbotron -->
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h1 class="display-3">WORK DAY SCHEDULER</h1>
+      <p class="lead">SCHEDULE YOUR WORK DAY SON</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
+    <!-- hour rows -->
     <div class="container">
-        
-      <!-- Timeblocks go here -->
+        <!-- 0900 -->
+        <div class="row" id="09"> 
+            <div>0900</div> 
+            <textarea></textarea> <!-- bootstrap classes --> <!--to be the right flex container-->
+            <button class="save" onclick="saveText(9)"></button> <!--fontawesome for save icon / add bootstrap classes-->
+        </div>
+
+        <!-- 1000 -->
+        <div class="row" id="1000"> 
+            <div>1000</div> 
+            <textarea></textarea> <!-- bootstrap classes --> <!--to be the right flex container-->
+            <button class="save" onclick="saveText(10)"></button> <!--fontawesome for save icon / add bootstrap classes-->
+        </div>
+
+        <!-- 1100 -->
+        <div class="row" id="1100"> 
+            <div>1100</div> 
+            <textarea></textarea> <!-- bootstrap classes --> <!--to be the right flex container-->
+            <button class="save" onclick="saveText(11)"></button> <!--fontawesome for save icon / add bootstrap classes-->
+        </div>
+
+        <!-- 1200 -->
+        <div class="row" id="1200"> 
+            <div>1200</div> 
+            <textarea></textarea> <!-- bootstrap classes --> <!--to be the right flex container-->
+            <button class="save" onclick="saveText(12)"></button> <!--fontawesome for save icon / add bootstrap classes-->
+        </div>
+
+        <!-- 1300 -->
+        <div class="row" id="1300"> 
+            <div>1300</div> 
+            <textarea></textarea> <!-- bootstrap classes --> <!--to be the right flex container-->
+            <button class="save" onclick="saveText(13)"></button> <!--fontawesome for save icon / add bootstrap classes-->
+        </div>
+
+        <!-- 1400 -->
+        <div class="row" id="1400"> 
+            <div>1400</div> 
+            <textarea></textarea> <!-- bootstrap classes --> <!--to be the right flex container-->
+            <button class="save" onclick="saveText(14)"></button> <!--fontawesome for save icon / add bootstrap classes-->
+        </div>
+
+        <!-- 1500 -->
+        <div class="row" id="1500"> 
+            <div>1500</div> 
+            <textarea></textarea> <!-- bootstrap classes --> <!--to be the right flex container-->
+            <button class="save" onclick="saveText(15)"></button> <!--fontawesome for save icon / add bootstrap classes-->
+        </div>
+
+        <!-- 1600 -->
+        <div class="row" id="1600"> 
+            <div>1600</div> 
+            <textarea></textarea> <!-- bootstrap classes --> <!--to be the right flex container-->
+            <button class="save" onclick="saveText(16)"></button> <!--fontawesome for save icon / add bootstrap classes-->
+        </div>
+
+        <!-- 1700 -->
+        <div class="row" id="1700"> 
+            <div>1700</div> 
+            <textarea></textarea> <!-- bootstrap classes --> <!--to be the right flex container-->
+            <button class="save" onclick="saveText(17)"></button> <!--fontawesome for save icon / add bootstrap classes-->
+        </div>
+
+        <!-- 1800 -->
+        <div class="row" id="1800"> 
+            <div>1800</div> 
+            <textarea></textarea> <!-- bootstrap classes --> <!--to be the right flex container-->
+            <button class="save" onclick="saveText(18)"></button> <!--fontawesome for save icon / add bootstrap classes-->
+        </div>
+
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
