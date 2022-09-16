@@ -1,20 +1,13 @@
 $(document).ready(function(){
-
-    var init = false;
-    
-}
-    // current day
-
-
-const currentDate = $('#currentDay');
-currentDate.text
+//MOMENT FOR DATE AND TIME
+let NowMoment = moment().format("MMMM do YYYY");
+let displayDate = document.getElementById("currentDay");
+displayDate.innerHTML = NowMoment;
+let currentHour = moment().format("HH");
 
 
-
-}
    
 // local storage lord
-{
 $('.save').click(function(){
         console.log('click')
     })
@@ -25,5 +18,4 @@ $('.save').click(function(){
 localStorage.setItem(key:hour, value:day)
 
 
-}
 //parent siblings javascript 4 lyfe
