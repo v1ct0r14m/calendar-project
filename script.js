@@ -18,6 +18,7 @@ $('.save').click(function (event) {
 
 });
 
+
 // local storage lord
 $("#900 .time-block").val(localStorage.getItem("0900"));
 $("#1000 .time-block").val(localStorage.getItem("1000"));
@@ -29,5 +30,3 @@ $("#1500 .time-block").val(localStorage.getItem("1500"));
 $("#1600 .time-block").val(localStorage.getItem("1600"));
 $("#1700 .time-block").val(localStorage.getItem("1700"));
 $("#1800 .time-block").val(localStorage.getItem("1800"));
-
-});
